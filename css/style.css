@@ -32,8 +32,57 @@ img {
     border-bottom: 1px solid #d7d7d7;
     -webkit-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    transition: all .3s ease-in-out;
     position: relative;
+    /* box-shadow: 0 0 5px rgb(4, 0, 255), 0 0 5px cyan; */
+    border:1px solid rgb(0, 255, 102);
+   
+  
+}
+ 
+
+
+.service-widget:hover{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 255, 102),0 0 15px rgb(0, 255, 102);
+   
+}
+.aiservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.cloudservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.digitalservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.erpservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.itservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.mobileservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.webservice{
+    box-shadow: 0 0 5px rgb(0, 255, 102), 0 0 10px rgb(0, 17, 255),0 0 15px rgb(111, 0, 255);
+   
+}
+.col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.footer__call__number__icon {
+    float: left;
+    margin-right: 35px;
 }
 
 .widget-nav-menu ul {
@@ -59,15 +108,16 @@ a:-webkit-any-link {
     transform: scale(1, 0);
     -webkit-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    transition: left,ease-in;
 }
+
+
 
 
 li {
     text-align: -webkit-match-parent;
    
 }
-
 
 
 .service-widget .service-title .title {
@@ -359,6 +409,17 @@ li {
         font-size: 14px !important;
     }
 }
+
+
+.head{
+ color:rgb(0, 0, 0);
+
+}
+.head:hover{
+color: blue;
+}
+
+
 
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/carousel-1.jpg) center center no-repeat;
@@ -725,5 +786,6 @@ li {
     background: var(--bs-secondary);
     border: 0;
 }
+
 
 /*** Footer End ***/
