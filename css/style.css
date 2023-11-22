@@ -1,6 +1,9 @@
 
 
-
+.testimonial-carousel  .owl-item .testimonial-item:hover {
+    background: #FFFFFF !important;
+    box-shadow: 0 0 30px #238a04;
+}
 .service-widget {
     display: -webkit-box;
     display: -ms-flexbox;
